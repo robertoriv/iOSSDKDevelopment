@@ -1,1 +1,3 @@
 Repo for projects and excercises to be completed while I read ___iOS SDK Development, Second Edition___.
+
+...
