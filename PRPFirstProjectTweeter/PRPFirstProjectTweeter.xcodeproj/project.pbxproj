@@ -18,6 +18,7 @@
 		62903F53165200CD0001075F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62903F52165200CD0001075F /* Default-568h@2x.png */; };
 		62903F56165200CD0001075F /* PRPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62903F55165200CD0001075F /* PRPViewController.m */; };
 		62903F59165200CD0001075F /* PRPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62903F57165200CD0001075F /* PRPViewController.xib */; };
+		62903F60165211090001075F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62903F5F165211090001075F /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		62903F54165200CD0001075F /* PRPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRPViewController.h; sourceTree = "<group>"; };
 		62903F55165200CD0001075F /* PRPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRPViewController.m; sourceTree = "<group>"; };
 		62903F58165200CD0001075F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRPViewController.xib; sourceTree = "<group>"; };
+		62903F5F165211090001075F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62903F60165211090001075F /* Social.framework in Frameworks */,
 				62903F3D165200CD0001075F /* UIKit.framework in Frameworks */,
 				62903F3F165200CD0001075F /* Foundation.framework in Frameworks */,
 				62903F41165200CD0001075F /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		62903F2D165200CD0001075F = {
 			isa = PBXGroup;
 			children = (
+				62903F5F165211090001075F /* Social.framework */,
 				62903F42165200CD0001075F /* PRPFirstProjectTweeter */,
 				62903F3B165200CD0001075F /* Frameworks */,
 				62903F39165200CD0001075F /* Products */,
