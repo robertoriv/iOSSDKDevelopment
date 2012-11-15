@@ -39,4 +39,16 @@
     }
 }
 
+-(IBAction) handleFacebookButtonTapped: (id) sender {
+    if ([SLComposeViewController isAvailableForServiceType: SLServiceTypeFacebook]) {
+        SLComposeViewController *facebookVC =
+        [SLComposeViewController composeViewControllerForServiceType:
+         SLServiceTypeFacebook];
+        [facebookVC setInitialText:
+         @"I just finished the first project in iOS SDK Development. #pragsios"]; [self presentViewController:facebookVC animated:YES completion:NULL];
+    }else{
+        NSLog (@"Can't send tweet");
+    }
+}
+
 @end
